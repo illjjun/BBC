@@ -11,8 +11,8 @@
 <style>
 td,th{border: 1px solid black;}
 </style>
-<body>
-   <table style='border-collapse:collapse;'>
+<body align=center>
+   <table style='border-collapse:collapse;' align=center>
       <thead>
          <tr>
             <th>게시물번호</th>
@@ -33,8 +33,11 @@ td,th{border: 1px solid black;}
                   <td>${post.hit}</td>
                </tr>
             </c:forEach>
+          
+            
+         
       </tbody>
    </table>
-<input type=button value='게시글 작성' onclick='document.location="/ncs7/compose"'>
+<input type=button value='게시글 작성' onclick='document.location="/ncs7/compose"' align=center>
 </body>
 </html>
